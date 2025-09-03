@@ -1,4 +1,12 @@
+import przegladarka from './images/przegladarka.jpg';
 
+const img = document.createElement('img');
+img.src = przegladarka;
+img.alt = 'Opis obrazka';
+img.classList.add('about__picture');
+
+// Dodajesz obrazek do HTML:
+document.querySelector('.about').appendChild(img);
 
 
 

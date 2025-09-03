@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 html {
   box-sizing: border-box;
@@ -11,9 +13,7 @@ html {
 
 .main {
   padding-top: 65px; /* Dostosuj wartość, aby pasowała do wysokości Twojej nawigacji */
-}
-
-body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: aqua;
 }
 body body {
@@ -23,6 +23,8 @@ body body {
 
 h1 {
   color: rgb(109, 94, 78);
+  font-weight: 900;
+  
 }
 
 h2 {
@@ -198,4 +200,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1rem 0;
 }
 
+.logo {
+    display: flex;
+  justify-content: center;   // środkowanie w poziomie
+  align-items: center;       // środkowanie w pionie (jeśli ma wysokość)
+  min-height: 300px;   
 
+}

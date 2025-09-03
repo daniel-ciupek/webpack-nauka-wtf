@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona głowna</a
+        >
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML-a</a>
+      </nav>
+    </header>
+    <main>
+      <header id="top">
+        <h1>
+          Moje postępy!
+          <a href="https://trello.com/u/lajkonik51/boards"> Sprawdź!!</a>
+        </h1>
+      </header>
+
+      <p>wszystko czego do tej pory sie nayczułeś znadziesz na tej stronie</p>
+
+      <section id="akcja">
+        <h3>Miejsce akcji</h3>
+        <p>
+          <a href="https://validator.w3.org/nu/#textarea"> Akcja</a> toczy się
+          na tajemniczej wyspie <i>San Giulio,</i> na którą chciałoby z
+          pewnością trafić wielu marzących o wiecznej młodości ludzi.<br />
+          Humor, abstrakcyjne pomysły, przezabawny język opowieści współczesnego
+          włoskiego pisarza – w doskonałym tłumaczeniu Jarosława Mikołajewskiego
+          – na pewno dodadzą małym i dużym czytelnikom dużo energii.
+        </p>
+      </section>
+
+      <main>
+        <h1>Formularze</h1>
+        <form>
+          <p>
+            <label for="Nick">Your Nick</label>
+            <input type="text" id="Nick" name="Nick" placeholder="wpisz swój nick" />
+          </p>
+
+          <p>
+            <label for="e-mail">Your e-mail</label>
+            <input type="text" id="e-mail" name="e-mail" placeholder="wpisz swój e-mail" />
+          </p>
+        </form>
+        <fieldset>
+          <legend>Address</legend>
+           <p>
+            <label for="address">Name street</label>
+            <input type="text" id="address" name="Street name" placeholder="wpisz swój adres" />
+          </p>
+
+        
+           <p>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="wpisz swoje miasto" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Ulubiona marka auta </legend>
+          <p>
+            <label><input name="Marki" type="radio" value="Mercedes">Mercedes</label>
+          </p>
+           <p>
+            <label><input name="Marki" checked type="radio" value="BMW">BMW</label>
+          </p>
+           <p>
+            <label><input name="Marki" type="radio" value="Audi">Audi</label>
+          </p>
+        </fieldset>
+        <p>
+          <input name="aggrement" value="agree" type="checkbox">Zgadzam się</input>
+        </p>
+        <p>
+          <label for="password">Logowanie i przesyłanie danych</label>
+          <input id="password"
+          name="password"
+          type="range"
+          min="0"
+          max="100"
+           >
+          </p>
+          <p>
+            <label for="lista">Rozwijana lista</label>
+            <select name="lista" id="lista">
+            <option value="lista1">Lista numer 1</option>
+            <option value="lista2">Lista numer 2</option>
+            <option value="lista3">Lista numer 3</option>
+            <option value="lista4">Lista numer 4</option>
+            </select>
+          
+          </p>
+          <p>
+          <label for="textArea">Text Area dłuższy opis</label>
+          <textarea class="textArea" id="textArea" name="textArea">
+            Tabelka w której można umieścić dłuższy tekst 
+          </textarea>
+          </p>
+          <p>
+            <input name="submit" type="submit" value="wyślij">
+
+          </p>
+          
+        
+      </main>
+    </main>
+    <br />
+    <footer>
+      Polecamy, polecamy, polecamy… <a href="#top">wróć na początek</a>
+    </footer>
+</body>
+</html>

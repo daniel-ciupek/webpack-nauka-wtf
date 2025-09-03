@@ -39,14 +39,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'webpack Boilerplate',
       favicon: paths.src + '/images/favicon.png',
-      template: paths.src + '/template.html', // template file
+      template: paths.src + '/index.html', // template file
       filename: 'index.html', // output file
     }),
     new HtmlWebpackPlugin({
       title: 'webpack Boilerplate',
       favicon: paths.src + '/images/favicon.png',
-      template: paths.src + '/start.html', // template file
-      filename: 'start.html', // output file
+      template: paths.src + '/nauka-html.html', // template file
+      filename: 'nauka-html.html', // output file
     }),
   ],
 

@@ -1,0 +1,6 @@
+// main.scss
+@use 'index';
+
+body {
+  color: index.$primary-color;
+}
